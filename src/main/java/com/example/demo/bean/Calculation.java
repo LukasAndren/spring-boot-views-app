@@ -5,7 +5,7 @@ public class Calculation {
     private String numberOne;
     private String numberTwo;
     private String sum;
-//comment
+//comment2
     public String getSum() {
         return sum;
     }
