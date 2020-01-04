@@ -24,7 +24,7 @@ class SpringBootWebAppApplicationTests {
 
 		calculationController.calculateSum(calculation);
 
-		assert "25".equals(calculation.getSum());
+		assert "15".equals(calculation.getSum());
 
 	}
 
