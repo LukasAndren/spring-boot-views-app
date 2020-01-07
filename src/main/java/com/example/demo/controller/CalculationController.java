@@ -24,10 +24,10 @@ public class CalculationController {
         return "showMessage";
     }
 
-    /*@GetMapping("/hello")
+    @GetMapping("/hello")
     public String hello(){
         return "hello";
-    }*/
+    }
 
     public void calculateSum(Calculation calculation){
 
