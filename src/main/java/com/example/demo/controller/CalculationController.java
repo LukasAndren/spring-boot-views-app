@@ -24,6 +24,11 @@ public class CalculationController {
         return "showMessage";
     }
 
+    @GetMapping("/hello")
+    public String hello(){
+        return "hello";
+    }
+
     public void calculateSum(Calculation calculation){
 
         int i = Integer.parseInt(calculation.getNumberOne());
